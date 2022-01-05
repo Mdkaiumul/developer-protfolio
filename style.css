@@ -8,11 +8,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .color {
     color: orange;
 }
 
-section {
+.fexebol-conteiner {
     display: flex;
     margin-bottom: 10%;
 }
@@ -44,4 +48,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experiences-items {
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 5px;
+
+}
+
+.Eexperiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+#web-deboloper-id {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+
+}
+
+#web-deboloper-fast-id {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, red);
+    border-image-slice: 1;
+}
+
+#foter {
+    text-align: center;
 }
